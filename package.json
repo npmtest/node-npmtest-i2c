@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [i2c (v0.2.3)](https://github.com/korevec/node-i2c#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-i2c.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i2c) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i2c.svg)](https://travis-ci.org/npmtest/node-npmtest-i2c)",
+    "description": "#### basic test coverage for  [i2c (v0.2.3)](https://github.com/korevec/node-i2c#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-i2c.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i2c) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i2c.svg)](https://travis-ci.org/npmtest/node-npmtest-i2c)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "i2c": "*",

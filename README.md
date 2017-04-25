@@ -1,6 +1,6 @@
 # npmtest-i2c
 
-#### test coverage for  [i2c (v0.2.3)](https://github.com/korevec/node-i2c#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-i2c.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i2c) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i2c.svg)](https://travis-ci.org/npmtest/node-npmtest-i2c)
+#### basic test coverage for  [i2c (v0.2.3)](https://github.com/korevec/node-i2c#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-i2c.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-i2c) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-i2c.svg)](https://travis-ci.org/npmtest/node-npmtest-i2c)
 
 #### Native bindings for i2c-dev. Plays well with Raspberry Pi and BeagleBone.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-i2c/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-i2c/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-i2c/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-i2c/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-i2c/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-i2c/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-i2c/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-i2c/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-i2c/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-i2c/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-i2c/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-i2c/build/coverage.html/index.html)
 
@@ -75,7 +75,8 @@
     "scripts": {
         "install": "node-gyp rebuild"
     },
-    "version": "0.2.3"
+    "version": "0.2.3",
+    "bin": {}
 }
 ```
 
